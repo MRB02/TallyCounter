@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tally Counter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tallyCounter">
+        <div class="showWords">
+            <form>
+                <select>
+                    <option value="Subhanalloh">Subhanalloh</option>
+                    <option value="Alhamdulillah">Alhamdulillah</option>
+                    <option value="La illaha illalloh">La illaha illalloh</option>
+                </select>
+            </form>
+        </div>
+        <div class="show_numbers">
+            <h1 class="main-numb"></h1>
+            <div class="targetedNumber"></div>
+        </div>
+        <div class="return">
+            <span id="refresh" class="material-icons">
+                refresh
+                </span>
+        </div>
+        <div class="inc_decr">
+            <button class="plus"><span class="material-icons">
+                add
+                </span></button>
+            <button class="minus">
+                <span class="material-icons">
+                remove
+                </span>
+            </button>
+        </div>
+
+        <div class="target">
+            <button class="target-btn">Target</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

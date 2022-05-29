@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tallyCounter {
+    width: 350px;
+    height: 650px;
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 204, 255);
+}
+
+.showWords select {
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+}
+
+.showWords select option {
+    color: #222;
+}
+
+.return #refresh {
+    opacity: 0;
+    font-size: 35px;
+    color: white;
+}
+
+.show_numbers {
+    border: 0px solid rgb(0, 204, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.show_numbers h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.targetedNumber {
+    display: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+.inc_decr button {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    /* background-color: rgba(217, 217, 217, 0.2); */
+    margin: 25px;
+    padding: 5px 5px 0 5px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.inc_decr .plus span {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 0, 98);
+}
+
+.inc_decr .minus span {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 255, 204);
+}
+
+.target-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 255, 187);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
